@@ -55,7 +55,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1003
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://envs.sh/Wdj.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://telegra.ph/file/1a2f6664040951324098f-6d8a350565d39cf169.png')
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '6003714824@ptyes')
 
 #Auto approve 
@@ -91,8 +91,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_To_Download_OTx/9
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c3e70b4fa52996b7d221086a8f6bb33e0b3667ef')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Download_OTx/9')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
