@@ -56,7 +56,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1003
 # Payment Configuration
 # ============================
 QR_CODE = environ.get('QR_CODE', 'https://telegra.ph/file/a872a403f0f8d93416a3e-a15dd4d899ee669ef0.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '6003714824@ptyes')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'otxstudioofficial@okaxis')
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
