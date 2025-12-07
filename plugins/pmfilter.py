@@ -2040,15 +2040,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/nova_flix")
+            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/CREWFLIX")
        ],[
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/movie7xchat"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/codeflix_bots")
+            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/Movies_7x_search"),
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/CodeDise")
        ],[
-            InlineKeyboardButton('• sᴇʀɪᴇsғʟɪx •', url="https://t.me/webseries_flix"),
-            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/movieflixspot")
+            InlineKeyboardButton('• sᴇʀɪᴇsғʟɪx •', url="https://t.me/Series_Mines"),
+            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/movieflix_mines")
        ],[
-            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/Anime_Cruise_Netflix")
+            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/Anime_mines")
        ],[ 
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
@@ -2186,7 +2186,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅs •', callback_data='main')
         ], [
             InlineKeyboardButton('• ᴅᴇᴠᴇʟᴏᴘᴇʀ', user_id=int(6497757690)),
-            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ •', url="t.me/otakuflix_network")
+            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ •', url="t.me/otakumines_network")
         ], [
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
