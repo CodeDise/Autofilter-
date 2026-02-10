@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26944587'))
 API_HASH = environ.get('API_HASH', '7261a455f2a6159b8a2fbfecd1a63004')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8374532026:AAE_1XFAY8bu8I9u1REwRDx4O3jKZVuLDGU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8374532026:AAGayVJ4SFxFYwDneGOxaUeB162OfPfk3TQ")
 
 # ============================
 # Bot Settings Configuration
@@ -82,7 +82,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # ============================
 # Verification Settings
 # ============================
-VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
+VERIFY = bool(environ.get('VERIFY', False))  # Verification On (True) / Off (False)
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 12))  # Add time in hours
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002966497866'))  # Log channel id (make sure bot is admin)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_To_Download_OTx')  # How to open tutorial link for verification
@@ -91,9 +91,9 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_To_Download_OTx')
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '7a541402aeacbdbff361696add89bce2cf8afa4e')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Download_OTx/')  # Tutorial video link for opening shortlink website
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'nowshort.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e3b32859bdb46cc11255422458f8e433d8176911')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_nowshort')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
